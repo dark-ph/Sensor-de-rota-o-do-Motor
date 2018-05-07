@@ -3,7 +3,7 @@
 #define ENDSTOP_PIN 2  //what pin are we using?
 
 void setup() {
-  pinMode(ENDSTOP_PIN, OUTPUT);
+  pinMode(ENDSTOP_PIN, INPUT);
   Serial.begin(9600);
   Serial.println("Starting opto endstop exerciser.");
   }
